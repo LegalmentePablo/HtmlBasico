@@ -1,0 +1,39 @@
+body{
+    background-color: #e3e3e3; 
+}
+
+.informacion{
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-top: none;
+    border-color: rgb(202, 202, 202);
+    border-radius: 4px;
+}
+
+#barraN ul{
+    margin: 0px;
+    padding: 4px;
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    left: 0;
+    top: 0;
+    background-color: #333;
+}
+
+#barraN li {
+    float: left;
+}
+
+#barraN a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+#barraN a:hover{
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
